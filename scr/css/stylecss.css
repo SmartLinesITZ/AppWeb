@@ -21,7 +21,7 @@
 
 /*///////////////////////// Login /////////////////////////*/
 #login{
-    background-image: url(../images/comida.jpg);
+    background-image: url(../img/comida.jpg);
 }
 .container-login{
     margin: 0;
@@ -36,5 +36,5 @@
     color: #ffc107;
 }
 .container-login label{
-    color: #ffc107;
+    color: white;
 }

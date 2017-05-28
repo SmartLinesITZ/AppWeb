@@ -5,6 +5,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title></title>
+  <style type="text/css">
+    #logo{
+      width: 9%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body class="grey lighten-2">
   <nav class="z-depth-2 #d50000 red accent-4" role="navigation">
@@ -41,7 +47,7 @@
                 <td>Lucky Luciano</td>
                 <td>Orito Av. Pino Suarez #303</td>
                 <td>4929052800</td>
-                <td><a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                <td><a class="btn-floating btn  waves-effect waves-light green" href="update.php"><i class="material-icons">edit</i></a>
                   <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
                   <a class="btn-floating btn waves-effect waves-light #2962ff blue accent-4"><i class="material-icons">visibility</i></a> 
                 </td>
@@ -51,7 +57,7 @@
                 <td>VancuaverWings</td>
                 <td>Calle 3a de los bolos #900</td>
                 <td>4921134553</td>
-                <td><a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                <td><a class="btn-floating btn  waves-effect waves-light green" href="update.php"><i class="material-icons">edit</i></a>
                   <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
                   <a class="btn-floating btn waves-effect waves-light #2962ff blue accent-4"><i class="material-icons">visibility</i></a> 
                 </td>
@@ -61,7 +67,7 @@
                 <td>Wings Army</td>
                 <td>Calle independencia #870</td>
                 <td>4991028719</td>
-                <td><a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                <td><a class="btn-floating btn  waves-effect waves-light green" href="update.php"><i class="material-icons">edit</i></a>
                   <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
                   <a class="btn-floating btn waves-effect waves-light #2962ff blue accent-4"><i class="material-icons">visibility</i></a> 
                 </td>
@@ -71,7 +77,7 @@
                 <td>Lucky Luciano</td>
                 <td>Orito Av. Pino Suarez #303</td>
                 <td>4929052800</td>
-                <td><a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                <td><a class="btn-floating btn  waves-effect waves-light green" href="update.php"><i class="material-icons">edit</i></a>
                   <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
                   <a class="btn-floating btn waves-effect waves-light #2962ff blue accent-4"><i class="material-icons">visibility</i></a> 
                 </td>
@@ -81,7 +87,7 @@
                 <td>VancuaverWings</td>
                 <td>Calle 3a de los bolos #900</td>
                 <td>4921134553</td>
-                <td><a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                <td><a class="btn-floating btn  waves-effect waves-light green" href="update.php"><i class="material-icons">edit</i></a>
                   <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
                   <a class="btn-floating btn waves-effect waves-light #2962ff blue accent-4"><i class="material-icons">visibility</i></a> 
                 </td>
@@ -91,12 +97,11 @@
                 <td>Wings Army</td>
                 <td>Calle independencia #870</td>
                 <td>4991028719</td>
-                <td><a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                <td><a class="btn-floating btn  waves-effect waves-light green" href="update.php"><i class="material-icons">edit</i></a>
                   <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
                   <a class="btn-floating btn waves-effect waves-light #2962ff blue accent-4"><i class="material-icons">visibility</i></a> 
                 </td>
               </tr>
-
             </tbody>
           </table>
           <br>
@@ -105,7 +110,7 @@
     </div>
   </div>
   <div class=" col s1 offset-s11">
-  <a class="btn-floating btn-large waves-effect waves-light blue" href="create.php"><i class="material-icons">add</i></a>
+    <a class="btn-floating btn-large waves-effect waves-light blue" href="create.php"><i class="material-icons">add</i></a>
   </div>
 </div>
 </form>
