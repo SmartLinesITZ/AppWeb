@@ -5,8 +5,9 @@
 	$objConex = new Conexion();
 	$link=$objConex->conectarse();
 	session_start();
-	$sql = mysql_query("SELECT * FROM user WHERE username='" .$user. "'
-					   AND password='".$password."';" , $link) or die(mysql_error());
+	$encrypt=md5($password);
+	$sql = mysql_query("SELECT * FROM user,usuarios WHERE username='" .$user. "'
+					   AND password='".$encrypt."' AND user.idusuario=usuarios.idusuario;" , $link) or die(mysql_error());
 	$row=mysql_num_rows($sql);
 	if ($row == 0){
 			echo 	"<script type='text/javascript'>
@@ -17,13 +18,27 @@
 					</script>";
 	}else{
 		while ($rows = mysql_fetch_array($sql)){
-			$_SESSION['login'] = $rows['usuario'];
+			$_SESSION['login'] = $rows['username'];
 			$_SESSION['contra'] = $rows['password'];
 			$_SESSION['seguridad'] = "ok";
+			$tipousuario=$rows['tipousuario'];
 		}
-		echo 	"<script type='text/javascript'>
-				alert('Bienvenido " .$_SESSION['login']. "');
+		if($tipousuario=='adminapp'){
+			echo "<script type='text/javascript'>
+				alert('Bienvenido " .$_SESSION['login']. " Adminapp');
 				</script>";
+				echo "<script type='text/javascript'>
+				window.location='../../view/admin/inicio.php'
+				</script>";
+		}else{
+			echo 	"<script type='text/javascript'>
+				alert('Bienvenido " .$_SESSION['login']. " Adminrest');
+				</script>";
+				echo "<script type='text/javascript'>
+				window.location='../../view/restaurantes/inicio.php'
+				</script>";
+		}
+		
 	}
 	mysql_close($link);
 
