@@ -19,7 +19,7 @@
     <div class="row">
       <div class="col s12">
         <div class="col s10 offset-s1 card-panel ">
-          <H3 align="center">Agregar restaurante</H3>
+          <H3 align="center">Editar información de restaurante</H3>
           <div class="aling-center">
           <h4>Información de usuario</h4>
           <div class="divider"></div>
@@ -52,7 +52,7 @@
             </div>
             <div class="input-field col s6">
               <i class="material-icons prefix">lock</i>
-              <input id="password" type="text" class="validate">
+              <input id="password" type="password" class="validate">
               <label for="password">Contraseña</label>
             </div>
           </div>
