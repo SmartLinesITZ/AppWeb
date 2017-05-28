@@ -16,14 +16,14 @@
             <i class="material-icons large">account_circle</i>
             <p>Inicia sesión con tu cuenta</p>
         </div>
-        <form action="controller/sesion/checkuser.php">
+        <form action="controller/sesion/checkuser.php" enctype="multipart/form-data" method="POST">
             <div class="input-field col s12">
-                <input id="UserName" type="text" class="validate" name="usuario">
-                <label for="UserName"><i class="material-icons">perm_identity</i>&nbsp;Usuario</label>
+                <input id="usuario" type="text" class="validate" name="usuario">
+                <label ><i class="material-icons">perm_identity</i>&nbsp;Usuario</label>
             </div>
             <div class="input-field col s12">
-                <input id="Password" type="password" class="validate" name="password">
-                <label for="Password"><i class="material-icons">lock</i>&nbsp;Contraseña</label>
+                <input id="password" type="password" class="validate" name="password">
+                <label ><i class="material-icons" >lock</i>&nbsp;Contraseña</label>
             </div>
             <button class="waves-effect waves-teal btn-large amber accent-3">Ingresar &nbsp; <i class="material-icons"">send</i></button>
         </form>
@@ -36,5 +36,6 @@
     <script>window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')</script>
     <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 </body>
 </html>
