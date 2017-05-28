@@ -25,18 +25,25 @@
 		}
 		if($tipousuario=='adminapp'){
 			echo "<script type='text/javascript'>
-				alert('Bienvenido " .$_SESSION['login']. " Adminapp');
+				alert('Bienvenido " .$_SESSION['login']. "');
 				</script>";
 				echo "<script type='text/javascript'>
 				window.location='../../view/admin/inicio.php'
 				</script>";
-		}else{
+		}else if($tipousuario=='adminrest'){
 			echo 	"<script type='text/javascript'>
-				alert('Bienvenido " .$_SESSION['login']. " Adminrest');
+				alert('Bienvenido " .$_SESSION['login']. "');
 				</script>";
 				echo "<script type='text/javascript'>
-				window.location='../../view/restaurantes/inicio.php'
+				window.location='../../view/rest/inicio.php'
 				</script>";
+		}else{
+			echo 	"<script type='text/javascript'>
+					alert('Acceso incorrecto');
+					</script>";
+			echo 	"<script type='text/javascript'>
+					window.location='../../index.html'
+					</script>";
 		}
 		
 	}
