@@ -22,17 +22,18 @@
     <div class="row">
       <div class="col s12">
         <div class="col s6 offset-s3 card-panel ">
+          <h1>Registro de categoría</h1>
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">toc</i>
               <input id="icon_prefix" type="text" class="validate">
-              <label for="icon_prefix">Categoria</label>
+              <label for="icon_prefix">Categoría</label>
             </div>
             <div class="row">
               <div class="input-field col s6">
                 <i class="material-icons prefix">short_text</i>
                 <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                <label for="icon_prefix2">Descripcion</label>
+                <label for="icon_prefix2">Descripción</label>
               </div>
               <div class=" col s1 offset-s10">
                 <a class="btn-floating btn  waves-effect waves-light blue"><i class="material-icons">save</i></a>
@@ -48,14 +49,30 @@
               <table>
                 <thead>
                   <tr>
-                    <th>Categoria</th>
-                    <th>Descripcion</th>
+                    <th>Categoría</th>
+                    <th>Descripción</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Ensaladas</td>
+                    <td>Plato que se prepara mezclando distintos alimentos, crudos o cocidos, principalmente hortalizas troceadas, y se sirve frío o tibio, y aliñado o aderezado con alguna salsa.</td>
+                    <td>
+                      <a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                      <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Plato fuerte</td>
+                    <td>Plato principal, o que más alimenta y satisface, de una comida, o plato mejor preparado por una persona o restaurante.Cosa que destaca o es la más importante entre las varias que componen algo.</td>
+                    <td>
+                      <a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
+                      <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Postres</td>
+                    <td>Alimento, generalmente dulce, que se sirve al finalizar una comida.</td>
                     <td>
                       <a class="btn-floating btn  waves-effect waves-light green"><i class="material-icons">edit</i></a>
                       <a class="btn-floating btn waves-effect waves-light red"><i class="material-icons">delete</i></a>

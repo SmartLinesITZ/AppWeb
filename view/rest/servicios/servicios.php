@@ -32,7 +32,7 @@
 							On
 						</label>
 					</div></span>Reservaciones</div>
-					<div class="collapsible-body"><p>En la aplicacion se mostrara que usted cuenta con resevaciones de mesas.</p></div>
+					<div class="collapsible-body"><p>Cuentas con servicio de resarvación. Habilita la opcion de ON para que tus clientes puedas ver y hacer resevacion por medio de la app.</p></div>
 				</li>
 				<li>
 					<div class="collapsible-header"><span class="badge"><div class="switch">
@@ -43,7 +43,7 @@
 							On
 						</label>
 					</div></span>Pedido anticipado</div>
-					<div class="collapsible-body"><p>Descripcion d eun pedido anticipado.</p></div>
+					<div class="collapsible-body"><p></p></div>
 				</li>
 				<li>
 					<div class="collapsible-header"><span class="badge"><div class="switch">
