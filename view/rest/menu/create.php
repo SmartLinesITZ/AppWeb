@@ -60,7 +60,7 @@
               </div>
             </div>
             <div class=" col s1 offset-s10">
-              <a class="btn-floating btn-large  waves-effect waves-light blue"><i class="material-icons">save</i></a>
+              <a class="btn-floating btn-large  waves-effect waves-light blue" href="index.php"><i class="material-icons">save</i></a>
             </div>
           </div>
 

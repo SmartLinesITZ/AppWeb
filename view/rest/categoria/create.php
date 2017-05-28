@@ -47,7 +47,7 @@
         <div class="col s12">
           <div class="col s6 offset-s3 card-panel ">
             <div class="row">
-              <table>
+              <table class="centered striped bordered z-depth-3">
                 <thead>
                   <tr>
                     <th>Categoría</th>
