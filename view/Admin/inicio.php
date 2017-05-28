@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="../src//css/materialize.min.css">
+	<link rel="stylesheet" href="../src/fonts/material-design-icons/material-icons.css">
 	<script src="../src/js/jquery.js"></script>
 	<script src="../src/js/materialize.min.js"></script>
 	<title>Inicio</title>
@@ -61,6 +61,6 @@
   	</div>
 
 </body>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script type="text/javascript">
+</script>
 </html>
