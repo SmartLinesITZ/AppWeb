@@ -37,7 +37,7 @@
 					<div class="right-align">
 					</div>
 					<div class="row">
-						<table class="centered responsive-table highlight">
+						<table class="ccentered striped bordered z-depth-3">
 							<thead>
 								<tr>
 									<th>Platillo</th>
@@ -84,7 +84,7 @@
 			</div>
 		</div>
 		<div class="floating s1 offset-s10">
-			<a  class="btn-floating btn-large waves-effect waves-light bkue"><i class="material-icons">add</i></a>
+			<a  class="btn-floating btn-large waves-effect waves-light bkue" href="create.php"><i class="material-icons">add</i></a>
 		</div>
 	</body>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
